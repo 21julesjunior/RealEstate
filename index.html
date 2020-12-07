@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="b/bootstrap.css">
+    <link rel="stylesheet" href="b/font-awesome.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" class="active" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="properties.html">PROPERTIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="land.html">LANDS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="commercial.html">COMMERCIAL</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="testimonials.html">TESTIMONIALS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!--SLIDER-->
+
+    <div id="slider">
+        <div id="headerSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#headerSlider" data-slide-to="1"></li>
+                <li data-target="#headerSlider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/firstbanner.jpg" class="d-block img-fliuid">
+                    <div class="carousel-caption .reveal">
+                        <h5>Find The House Of Your Dreams</h5>
+                        <p>Lorem ipsum dolor sit amet con</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/firstbanner2.jpg" class="d-block img-fluid">
+                    <div class="carousel-caption">
+                        <h5>Very Nice Properties</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/firstbanner3.jpg" class="d-block img-fluid">
+                    <div class="carousel-caption">
+                        <h5>Comfort Guaranteed</h5>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <div class="about-content">
+                        Nous vous proposons une sélection de placements Immobilier à travers l'Europe (France,
+                        Allemagne, Italie, Portugal...) sur des périodes modulables ainsi qu'à des taux fixes garantis.
+
+                        L'Europe demeure la première destination touristique internationale et malgré la situation
+                        actuelle, l’investissement hôtelier constitue traditionnellement l’un des secteurs les plus
+                        résilients de l’immobilier avec des revenus et rendements parmi les plus élevés du secteur. <br>
+                    </div>
+                    <button type="button" class="btn btn-primary">Read more</button>
+                </div>
+                <div class="col-md-6 skills-bar">
+                    <p>Thing 1</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;">80%</div>
+                    </div>
+                    <p>Thing 2</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 60%;">60%</div>
+                    </div>
+                    <p>Thing 3</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 30%;">30%</div>
+                    </div>
+                    <p>Thing 4</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;">75%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="">
+        <div class="container">
+            <h1>Our services</h1>
+        </div>
+
+        <div class="row services">
+            <div class="col-md-3 text-center">
+                <div class="icon">
+                    <i class="fa fa-map-marker"></i>
+
+
+                </div>
+                <h3>Perfect Location</h3>
+                <p>Lorem ipsumssimus quam vel ducimus nostrum nisi eveniet quidem dignissimos odit delectus odio dolores
+                    provident consequatur fugit error minus veniam! Maiores, labore officia.</p>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="icon">
+                    <i class="fa fa-usd"></i>
+                </div>
+                <h3>Price Competitive</h3>
+                <p>Lorem ipsumssimus quam vel ducimus nostrum nisi eveniet quidem dignissimos odit delectus odio dolores
+                    provident consequatur fugit error minus veniam! Maiores, labore officia.</p>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="icon">
+                    <i class="fa fa-globe"></i>
+                </div>
+                <h3>Online Checking</h3>
+                <p>Lorem ipsumssimus quam vel ducimus nostrum nisi eveniet quidem dignissimos odit delectus odio dolores
+                    provident consequatur fugit error minus veniam! Maiores, labore officia.</p>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="icon">
+                    <i class="fa fa-line-chart""></i>
+                </div>
+                <h3>Graphics</h3>
+                <p>Lorem ipsumssimus quam vel ducimus nostrum nisi eveniet quidem dignissimos odit delectus odio dolores provident consequatur fugit error minus veniam! Maiores, labore officia.</p>
+            </div>
+           </div>
+       </section>
+
+       <section id=" team">
+                        <div class="container">
+                            <h1>Our Team</h1>
+                            <div class="row">
+                                <div class="col-md-3 profile-pic text-center">
+                                    <div class="img-box">
+                                        <img src="img/Jules.jpg" class="img-responsive">
+                                        <ul>
+                                            <a href="#">
+                                                <li><i class="fa fa-facebook"></i></li>
+                                            </a>
+                                            <a href="#">
+                                                <li><i class="fa fa-twitter"></i></li>
+                                            </a>
+                                            <a href="#">
+                                                <li><i class="fa fa-linkedin"></i></li>
+                                            </a>
+                                        </ul>
+                                    </div>
+                                    <h2>Jules Junior</h2>
+                                    <h3>Group 1 leader</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla praesentiu</p>
+                                </div>
+
+                                <div class="col-md-3 profile-pic text-center">
+                                    <div class="img-box">
+                                        <img src="img/Wulfran.png" class="img-responsive">
+                                        <ul>
+                                            <a href="#">
+                                                <li><i class="fa fa-facebook"></i></li>
+                                            </a>
+                                            <a href="#">
+                                                <li><i class="fa fa-twitter"></i></li>
+                                            </a>
+                                            <a href="#">
+                                                <li><i class="fa fa-linkedin"></i></li>
+                                            </a>
+                                        </ul>
+                                    </div>
+                                    <h2>Wulfran</h2>
+                                    <h3>The visionary</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla praesentiu</p>
+                                </div>
+
+                                <div class="col-md-3 profile-pic text-center">
+                                    <div class="img-box">
+                                        <img src="img/Adaobi.png" class="img-responsive" width="180">
+                                        <ul>
+                                            <a href="#">
+                                                <li><i class="fa fa-facebook"></i></li>
+                                            </a>
+                                            <a href="#">
+                                                <li><i class="fa fa-twitter"></i></li>
+                                            </a>
+                                            <a href="#">
+                                                <li><i class="fa fa-linkedin"></i></li>
+                                            </a>
+                                        </ul>
+                                    </div>
+                                    <h2>Jasmine</h2>
+                                    <h3>The visionary</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla praesentiu</p>
+                                </div>
+
+                                <div class="col-md-3 profile-pic text-center">
+                                    <div class="img-box">
+                                        <img src="img/Alexis.png" class="img-responsive" width="210">
+                                        <ul>
+                                            <a href="#">
+                                                <li><i class="fa fa-facebook"></i></li>
+                                            </a>
+                                            <a href="#">
+                                                <li><i class="fa fa-twitter"></i></li>
+                                            </a>
+                                            <a href="#">
+                                                <li><i class="fa fa-linkedin"></i></li>
+                                            </a>
+                                        </ul>
+                                    </div>
+                                    <h2>Alexis</h2>
+                                    <h3>The visionary</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla praesentiu</p>
+                                </div>
+                            </div>
+                        </div>
+    </section>
+
+    <section id="promo">
+        <div class="container">
+            <p>Need An Advice ?</p>
+            <p id="line1">Our Agents May Help You Out</p>
+            <p id="line2">Fusce rutrum auctor odio vel sodales maecenas sit amet dignissim ex. Sed volutpat hendrerit
+                nisl eget at mattis praesent maximus lectus in nulla fringilla, id euismod libero consequat etiam tellus
+                justot.</p>
+            <a href="contact.html" class="btn btn-primary">Contact Us</a>
+        </div>
+    </section>
+
+    <section id="price">
+        <div class="container">
+            <h1>Price Plan</h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="single-price">
+                        <div class="price-head">
+                            <h2>Properties</h2>
+                            <p>1.500.000$ - 8.000.000$</p>
+                        </div>
+                        <div class="price-content">
+                            <ul>
+                                <li><i class="fa fa-check-circle-o"></i> HONEYWOOD RISE</li>
+                                <li><i class="fa fa-times-circle"></i>ASHMORE WAY </li>
+                                <li><i class="fa fa-times-circle"></i>SORRENTO WA</li>
+                                <li><i class="fa fa-times-circle"></i>CRUFTS</li>
+                                <li><i class="fa fa-times-circle"></i>Stuff 5</li>
+                            </ul>
+                        </div>
+                        <div class="price-button">
+                            <a class="buy-btn" href="#">Join Free </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="single-price">
+                        <div class="price-head">
+                            <h2>Stuff</h2>
+                            <p>$ <span>month</span></p>
+                        </div>
+                        <div class="price-content">
+                            <ul>
+                                <li><i class="fa fa-check-circle-o"></i>Stuff 1</li>
+                                <li><i class="fa fa-times-circle"></i>Stuff 2</li>
+                                <li><i class="fa fa-times-circle"></i>Stuff 3</li>
+                                <li><i class="fa fa-times-circle"></i>Stuff 4</li>
+                                <li><i class="fa fa-times-circle"></i>Stuff 5</li>
+                            </ul>
+                        </div>
+                        <div class="price-button">
+                            <a class="buy-btn" href="#">Join Free </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="single-price">
+                        <div class="price-head">
+                            <h2>jghbk</h2>
+                            <p>$ <span>month</span></p>
+                        </div>
+                        <div class="price-content">
+                            <ul>
+                                <li><i class="fa fa-check-circle-o"></i>Stuff 1</li>
+                                <li><i class="fa fa-times-circle"></i>Stuff 2</li>
+                                <li><i class="fa fa-times-circle"></i>Stuff 3</li>
+                                <li><i class="fa fa-times-circle"></i>Stuff 4</li>
+                                <li><i class="fa fa-times-circle"></i>Stuff 5</li>
+                            </ul>
+                        </div>
+                        <div class="price-button">
+                            <a class="buy-btn" href="#">Join Free </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="single-price">
+                        <div class="price-head">
+                            <h2>hjbkj</h2>
+                            <p>$ <span>month</span></p>
+                        </div>
+                        <div class="price-content">
+                            <ul>
+                                <li><i class="fa fa-check-circle-o"></i>Stuff 1</li>
+                                <li><i class="fa fa-times-circle"></i>Stuff 2</li>
+                                <li><i class="fa fa-times-circle"></i>Stuff 3</li>
+                                <li><i class="fa fa-times-circle"></i>Stuff 4</li>
+                                <li><i class="fa fa-times-circle"></i>Stuff 5</li>
+                            </ul>
+                        </div>
+                        <div class="price-button">
+                            <a class="buy-btn" href="#">Join Free </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-md-6 col-xs-12 segment-one">
+                        <h3>Discover</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam cum, ullam dicta porro harum
+                            impedit unde aut necessitatibus distinctio, labore eveniet, laborum dolorem. Voluptate
+                            aliquid optio placeat officiis! Explicabo, quas.</p>
+
+                    </div>
+
+                    <div class="col-md-3 col-md-6 col-xs-12 segment-two">
+                        <h2>Discover</h2>
+
+                        <ul>
+                            <li><a href="#">Event</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Hosting</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 col-md-6 col-xs-12 segment-three">
+                        <h2>Follow Us</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nobis provident dolorum cum
+                            voluptas reiciendis facere, dolor quaerat natus et praesentium rem voluptate ducimus ex
+                            repellat consequatur totam minima mollitia?</p>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                    </div>
+
+                    <div class="col-md-3 col-md-6 col-xs-12 segment-four">
+                        <h2>Our Newletter</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis vero tempore aspernatur
+                            nostrum possimus, dolores aliquam quo sit. Quae eveniet nam assumenda. Officiis consequatur,
+                            et veniam repudiandae nihil quasi atque!</p>
+                        <form action="">
+                            <input type="email">
+                            <input type="submit" class="btn btn-primary" value="subscribe">
+                        </form>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom-text">All Right reserved by &copy; Divinector.2020</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script text="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>
