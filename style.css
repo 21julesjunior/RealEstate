@@ -174,7 +174,8 @@ body {
 
 }
 
-#services
+#services row {
+    margin = 0;
 }
 
 #services h1::after {
@@ -188,7 +189,6 @@ body {
 
 .services {
     margin-top: 40px;
-
 }
 
 .icon .fa {
@@ -217,7 +217,6 @@ body {
     padding-bottom: 50px;
     padding-bottom: 50px;
     color: #555;
-
 }
 
 h1 {
